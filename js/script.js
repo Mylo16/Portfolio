@@ -104,13 +104,13 @@ projects.map((card) => {
 const allProjects = [
   {
     id: 'projects',
-    name: 'Learn It',
-    description: 'This app Contains slides and questions on general knowledge as well as engineering',
-    featuredImage: './img/learnit.png',
-    technologies: ['html', 'CSS', 'JavaScript'],
+    name: 'EasyClinic',
+    description: 'This app allows a logged-in user to book appointment with a doctor of choice from a clinic',
+    featuredImage: './img/easyclinic.png',
+    technologies: ['React', 'Redux', 'Ruby on Rails'],
     seeProject: 'See Project',
-    linkLive: '<a href="https://mylo16.github.io/learning-app/" target="blank">See Live</a>',
-    linkSource: '<a href="https://github.com/Mylo16/learning-app" target="blank">See Source</a>',
+    linkLive: '<a href="https://easyclinic-client.vercel.app/" target="blank">See Live</a>',
+    linkSource: '<a href="https://github.com/oovillagran/final-capstone-back-end" target="blank">See Source</a>',
   },
   {
     id: 'bg-pro1',
