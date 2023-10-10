@@ -8,7 +8,6 @@
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -34,7 +33,7 @@ HTML, CSS and linter files
 
 ### 🚀Live Demo <a name="live-demo"></a>
 
-- Visit the page at https://mylo16.github.io/My-Portfolio
+- Visit the page at https://mylo16.github.io/Portfolio
 
 
 
@@ -56,10 +55,6 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 -git@github.com:Mylo16/My-Portfolio.git
-
-### Deployment
-
-N/A
 
 
 ## 👥 Author <a name="authors"></a>
