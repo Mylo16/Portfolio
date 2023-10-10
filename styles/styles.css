@@ -626,6 +626,10 @@ nav ul li:hover {
   color: #120a08;
 }
 
+.get_resume {
+  padding: 10px 30px;
+}
+
 .thumbnail {
   position: relative;
   align-items: center;

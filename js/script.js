@@ -17,7 +17,7 @@ const projects = [
   {
     id: 'bg-pro1',
     name: 'EE-PREP',
-    description: 'This app Contains slides and questions on general knowledge as well as engineering',
+    description: 'This app Contains slides and questions on general knowledge as well as engineering.',
     featuredImage: './img/ee_pic.png',
     technologies: ['React', 'Redux', 'JavaScript'],
     seeProject: 'See Project',
@@ -27,7 +27,7 @@ const projects = [
   {
     id: 'bg-pro2',
     name: 'Budget App',
-    description: 'The Ruby on Rails capstone project is about building a mobile web application where someone can manage his budget: He will provide list of transactions associated with a category.',
+    description: 'The Ruby on Rails capstone project is about building a mobile web application where someone can manage his budget. He will provide list of transactions associated with a category.',
     featuredImage: './img/budget.png',
     technologies: ['Ruby', 'Ruby on Rails', 'CSS',],
     seeProject: 'See Project',
@@ -47,7 +47,7 @@ const projects = [
   {
     id: 'bg-pro4',
     name: 'Space Travelers',
-    description: 'In this project I collaborated with my partners to use Kanban board to distribute tasks. Fetch data from API and display it. Use Redux store to update state.',
+    description: 'In this project, I collaborated with my partners to use Kanban board to distribute tasks. Data was fetched from an external API. We used Redux store to update the state of the application.',
     featuredImage: './img/space.JPG',
     technologies: ['React', 'Redux', 'JavaScript'],
     seeProject: 'See Project',
@@ -57,7 +57,7 @@ const projects = [
   {
     id: 'bg-pro5',
     name: 'To Do List',
-    description: 'You can add your daily tasks list here and tick every task acording to its completion. You can also remove and edit tasks. You can also clear all completed tasks after selecting them from the list.',
+    description: 'You can add or remove your daily tasks list here and tick every task acording to its completion.',
     featuredImage: './img/todos.png',
     technologies: ['React', 'Redux', 'JavaScript'],
     seeProject: 'See Project',
@@ -67,7 +67,7 @@ const projects = [
   {
     id: 'bg-pro6',
     name: 'Dani-Mylo Movies',
-    description: 'API-based web application built with Vanilla JavaScript ES6 and pure CSS! I collaborated with my partner to use a range of tools and best practices to ensure high-quality code and effective collaboration:',
+    description: 'API-based web application built with Vanilla JavaScript ES6 and pure CSS. I collaborated with my partner to use a range of tools and best practices to ensure high-quality code and effective collaboration.',
     featuredImage: './img/movies.png',
     technologies: ['Jest', 'Webpacks', 'JavaScript',],
     seeProject: 'See Project',
@@ -105,7 +105,7 @@ const allProjects = [
   {
     id: 'projects',
     name: 'EasyClinic',
-    description: 'This app allows a logged-in user to book appointment with a doctor of choice from a clinic',
+    description: 'This app allows a logged-in user to book appointment with a doctor of choice from a clinic.',
     featuredImage: './img/easyclinic.png',
     technologies: ['React', 'Redux', 'Ruby on Rails'],
     seeProject: 'See Project',
@@ -115,7 +115,7 @@ const allProjects = [
   {
     id: 'bg-pro1',
     name: 'EE PREP',
-    description: 'I built this project for my class at KNUST. A user can get access to various electrical/electronic engineering quizzes and slides',
+    description: 'I built this project for my class at KNUST. A user can get access to various electrical/electronic engineering quizzes and slides.',
     featuredImage: './img/ee_pic.png',
     technologies: ['React', 'Redux', 'JavaScript'],
     seeProject: 'See Project',
@@ -125,7 +125,7 @@ const allProjects = [
   {
     id: 'bg-pro2',
     name: 'Budget App',
-    description: 'The Ruby on Rails capstone project is about building a mobile web application where someone can manage his budget: He will provide list of transactions associated with a category.',
+    description: 'The Ruby on Rails capstone project is about building a mobile web application where someone can manage his budget. He will provide list of transactions associated with a category.',
     featuredImage: './img/budget.png',
     technologies: ['Ruby', 'Ruby on Rails', 'CSS',],
     seeProject: 'See Project',
@@ -145,7 +145,7 @@ const allProjects = [
   {
     id: 'bg-pro4',
     name: 'Space Travelers',
-    description: 'In this project I collaborated with my partners to use Kanban board to distribute tasks. Fetch data from API and display it. Use Redux store to update state.',
+    description: 'In this project, I collaborated with my partners to use Kanban board to distribute tasks. Data was fetched from an external API. We used Redux store to update the state of the application.',
     featuredImage: './img/space.JPG',
     technologies: ['React', 'Redux', 'JavaScript'],
     seeProject: 'See Project',
@@ -155,7 +155,7 @@ const allProjects = [
   {
     id: 'bg-pro5',
     name: 'To Do List',
-    description: 'You can add your daily tasks list here and tick every task acording to its completion. You can also remove tasks. You can also clear all completed tasks after selecting them from the list.',
+    description: 'You can add or remove your daily tasks list here and tick every task acording to its completion.',
     featuredImage: './img/todos.png',
     technologies: ['React', 'Redux', 'JavaScript'],
     seeProject: 'See Project',
@@ -165,7 +165,7 @@ const allProjects = [
   {
     id: 'bg-pro6',
     name: 'Dani-Mylo Movies',
-    description: 'API-based web application built with Vanilla JavaScript ES6 and pure CSS! I collaborated with my partner to use a range of tools and best practices to ensure high-quality code and effective collaboration:',
+    description: 'API-based web application built with Vanilla JavaScript ES6 and pure CSS. I collaborated with my partner to use a range of tools and best practices to ensure high-quality code and effective collaboration.',
     featuredImage: './img/movies.png',
     technologies: ['Jest', 'Webpacks', 'JavaScript',],
     seeProject: 'See Project',
