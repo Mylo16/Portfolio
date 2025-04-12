@@ -16,13 +16,13 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 const projects = [
   {
     id: 'bg-pro1',
-    name: 'EE-PREP',
-    description: 'This app Contains slides and questions on general knowledge as well as engineering.',
-    featuredImage: './img/ee_pic.png',
-    technologies: ['React', 'Redux', 'JavaScript'],
+    name: 'E-Short Courses',
+    description: 'This is an app designed to allow students to take KNUST facilitated Short courses. Enrolled pupils learn and take quizzes online',
+    featuredImage: './img/shortcourse.png',
+    technologies: ['React', 'Redux', 'JavaScript', 'Firebase'],
     seeProject: 'See Project',
-    linkLive: '<a href="https://mylo16.github.io/learning-app/" target="blank">See Live</a>',
-    linkSource: '<a href="https://github.com/Mylo16/learning-app" target="blank">See Source</a>',
+    linkLive: '<a href="short-courses-eight.vercel.app" target="blank">See Live</a>',
+    linkSource: '<a href="https://github.com/Mylo16/short-courses" target="blank">See Source</a>',
   },
   {
     id: 'bg-pro2',
@@ -36,13 +36,13 @@ const projects = [
   },
   {
     id: 'bg-pro3',
-    name: 'Air Pollution',
-    description: 'This app contains the hourly data collection of air pollutants in Ghana.',
-    featuredImage: './img/air_pollutant.png',
+    name: 'E-Stock Management',
+    description: 'This app helps manage inventory and resources at the KNUST E-Learning centre.',
+    featuredImage: './img/estock.png',
     technologies: ['React', 'Redux', 'JavaScript',],
     seeProject: 'See Project',
-    linkLive: '<a href="https://air-pollutants.onrender.com" target="blank">See Live</a>',
-    linkSource: '<a href="https://github.com/Mylo16/air-pollution" target="blank">See Source</a>',
+    linkLive: '<a href="http://inventory-management-gold-five.vercel.app/inventory" target="blank">See Live</a>',
+    linkSource: '<a href="https://github.com/Mylo16/inventory-management" target="blank">See Source</a>',
   },
   {
     id: 'bg-pro4',
@@ -114,13 +114,13 @@ const allProjects = [
   },
   {
     id: 'bg-pro1',
-    name: 'EE PREP',
-    description: 'I built this project for my class at KNUST. A user can get access to various electrical/electronic engineering quizzes and slides.',
-    featuredImage: './img/ee_pic.png',
-    technologies: ['React', 'Redux', 'JavaScript'],
+    name: 'E-Short Courses',
+    description: 'This is an app designed to allow students to take KNUST facilitated Short courses. Enrolled pupils learn and take quizzes online',
+    featuredImage: './img/shortcourse.png',
+    technologies: ['React', 'Redux', 'JavaScript', 'Firebase'],
     seeProject: 'See Project',
-    linkLive: '<a href="https://electrical-engineering-quiz.onrender.com/" target="blank">See Live</a>',
-    linkSource: '<a href="https://github.com/Mylo16/ee-examination" target="blank">See Source</a>',
+    linkLive: '<a href="http://short-courses-eight.vercel.app" target="blank">See Live</a>',
+    linkSource: '<a href="https://github.com/Mylo16/short-courses" target="blank">See Source</a>',
   },
   {
     id: 'bg-pro2',
@@ -134,13 +134,13 @@ const allProjects = [
   },
   {
     id: 'bg-pro3',
-    name: 'Air Pollution',
-    description: 'This app contains the hourly data collection of air pollutants in Ghana.',
-    featuredImage: './img/air_pollutant.png',
+    name: 'E-Stock Management',
+    description: 'This app helps manage inventory and resources at the KNUST E-Learning centre.',
+    featuredImage: './img/estock.png',
     technologies: ['React', 'Redux', 'JavaScript',],
     seeProject: 'See Project',
-    linkLive: '<a href="https://air-pollutants.onrender.com" target="blank">See Live</a>',
-    linkSource: '<a href="https://github.com/Mylo16/air-pollution" target="blank">See Source</a>',
+    linkLive: '<a href="http://inventory-management-gold-five.vercel.app/inventory" target="blank">See Live</a>',
+    linkSource: '<a href="https://github.com/Mylo16/inventory-management" target="blank">See Source</a>',
   },
   {
     id: 'bg-pro4',
@@ -226,15 +226,7 @@ seeProject.forEach((btn, index) => {
   });
 });
 
-// form validation
 
-// const checkCase = (str) => {
-//   const isLower = str.toString().toLowerCase();
-//   if (str === isLower) {
-//     return true;
-//   }
-//   return false;
-// };
 const validate = (email) => {
   email.preventDefault();
   const inputMail = document.getElementById('email').value;

@@ -442,7 +442,7 @@ nav ul li:hover {
 }
 
 #bg-pro1 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/ee_pic.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/shortcourse.png);
   background-size: cover;
   border-radius: 1rem;
 }
@@ -454,7 +454,7 @@ nav ul li:hover {
 }
 
 #bg-pro3 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/air_pollutant.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/estock.png);
   background-size: cover;
   border-radius: 1rem;
 }
@@ -1009,7 +1009,7 @@ footer {
   }
 
   #bg-pro1:hover {
-    background: url(../img/ee_pic.png);
+    background: url(../img/shortcourse.png);
     background-size: cover;
   }
 
@@ -1019,7 +1019,7 @@ footer {
   }
 
   #bg-pro3:hover {
-    background: url(../img/air_pollutant.png);
+    background: url(../img/estock.png);
     background-size: cover;
   }
 
@@ -1425,7 +1425,7 @@ footer {
   }
 
   #bg-pro1:hover {
-    background: url(../img/ee_pic.png);
+    background: url(../img/shortcourse.png);
     background-size: cover;
   }
 
@@ -1435,7 +1435,7 @@ footer {
   }
 
   #bg-pro3:hover {
-    background: url(../img/air_pollutant.png);
+    background: url(../img/estock.png);
     background-size: cover;
   }
 
